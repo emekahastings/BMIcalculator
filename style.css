@@ -1,0 +1,110 @@
+#header{
+    /* padding-left: 500px; */
+    color: red;
+}
+body{
+    background-color: slategray;
+}
+#writeup{
+    font-size: 22px;
+    /* padding-left: 200px; */
+    font-family: 'Times New Roman', Times, serif;
+}
+ #box{
+        margin-left: 0px;
+        box-sizing: content-box;
+        width: 305px;
+        height: fit-content;
+        background-color: rgb(250, 210, 213);
+        box-shadow: rgb(26, 140, 179) 2px 2px 2px 2px;
+        padding: 50px;
+        margin-top: 30px;
+    }
+    #hbox{
+        margin-left: 0px;
+        box-sizing: content-box;
+        width: 305px;
+        height: fit-content;
+        background-color: rgb(250, 210, 213);
+        box-shadow: rgb(26, 140, 179) 2px 2px 2px 2px;
+        padding: 30px;
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    #button, #show{
+        background-color: skyblue;
+        padding: 10px;
+    }
+#display, #displays{
+    width: 200px;
+    height: 30px;
+}
+#height{
+   width: 200px;
+   height: 20px;
+}
+#to-m{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+#entire{
+    display: flex;
+    /* margin-left: 200px; */
+}
+@media (max-width:700px){
+    #header{
+        padding-left: 500px;
+        color: rgb(10, 2, 2);
+    }
+    body{
+        background-color: slategray;
+    }
+    #writeup{
+        font-size: 22px;
+        padding-left: 200px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+     #box{
+            margin-left: 0px;
+            box-sizing: content-box;
+            width: 305px;
+            height: fit-content;
+            background-color: rgb(250, 210, 213);
+            box-shadow: rgb(26, 140, 179) 2px 2px 2px 2px;
+            padding: 50px;
+            margin-top: 30px;
+        }
+        #hbox{
+            margin-left: 0px;
+            box-sizing: content-box;
+            width: 305px;
+            height: fit-content;
+            background-color: rgb(250, 210, 213);
+            box-shadow: rgb(26, 140, 179) 2px 2px 2px 2px;
+            padding: 30px;
+            margin-left: 50px;
+            margin-top: 30px;
+        }
+        #button, #show{
+            background-color: skyblue;
+            padding: 10px;
+        }
+    #display, #displays{
+        width: 200px;
+        height: 30px;
+    }
+    #height{
+       width: 200px;
+       height: 20px;
+    }
+    #to-m{
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 900;
+    }
+    #entire{
+        display: flex;
+        margin-left: 200px;
+    }
+}
